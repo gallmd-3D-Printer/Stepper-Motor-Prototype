@@ -504,8 +504,6 @@ Connection ~ 24350 8900
 Wire Wire Line
 	24350 8900 24350 8950
 Wire Wire Line
-	25650 9650 25650 7300
-Wire Wire Line
 	25650 7300 25950 7300
 Wire Wire Line
 	21800 7500 22550 7500
@@ -529,15 +527,8 @@ Connection ~ 24350 9400
 Wire Wire Line
 	24350 9400 24350 9350
 Wire Wire Line
-	24350 10200 24350 10350
-Wire Wire Line
-	25650 9650 24350 9650
-Connection ~ 24350 9650
-Wire Wire Line
-	24350 9650 24350 9500
+	24350 10200 24350 10250
 Connection ~ 24350 9750
-Wire Wire Line
-	24350 9750 24350 9650
 $Comp
 L power:GND #PWR0133
 U 1 1 5BA5A768
@@ -1300,4 +1291,29 @@ F 3 "" H 13250 10050 50  0001 C CNN
 	1    13250 10050
 	0    1    1    0   
 $EndComp
+Text Label 21900 6100 0    50   ~ 0
+AOUT1
+Text Label 21900 6200 0    50   ~ 0
+A1HS
+Text Label 21900 6300 0    50   ~ 0
+A1LS
+Text Label 21900 6400 0    50   ~ 0
+A1SENP
+Text Label 21900 6500 0    50   ~ 0
+A1SENN
+Text Label 21900 6600 0    50   ~ 0
+A2LS
+Text Label 21900 6700 0    50   ~ 0
+A2HS
+Text Label 21900 6800 0    50   ~ 0
+AOUT2
+Wire Wire Line
+	24350 9500 24350 9750
+Wire Wire Line
+	25650 10250 24350 10250
+Wire Wire Line
+	25650 7300 25650 10250
+Connection ~ 24350 10250
+Wire Wire Line
+	24350 10250 24350 10350
 $EndSCHEMATC
